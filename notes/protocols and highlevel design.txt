@@ -43,7 +43,10 @@ HTTP/3   -- always: HTTPS
 
 
 
-HTTP is always Synchronous, but recent versions allow asynchronous behaviour by sending multiple requests without the need to receive the response.
+HTTP - always Synchronous, but recent versions allow asynchronous behaviour by sending multiple requests without the need to receive the response.
 HTTP/1.1 - not multiplexing (no parallel requests at the same time)
 HTTP/2 - multiplexing
 HTTP/3 - multiplexing
+
+WebSockets - Asynchronous
+WebRTC - Asynchronous
