@@ -28,7 +28,7 @@ This repository contains free resources to learn System Design concepts and prep
 ## 🔌 API Fundamentals
 - [APIs](https://algomaster.io/learn/system-design/what-is-an-api)
 - [API Gateway](https://blog.algomaster.io/p/what-is-an-api-gateway)
-- [WebSockets](https://blog.algomaster.io/p/websockets)
+- [WebSockets](https://blog.algomaster.io/p/websockets)   notes: [protocols and high level wrappers](https://github.com/NuwanKeshara/System_Design/blob/main/notes/protocols%20and%20highlevel%20design.txt) 
 - [Webhooks](https://algomaster.io/learn/system-design/webhooks)
 - [Idempotency](https://algomaster.io/learn/system-design/idempotency)
 - [Rate limiting](https://blog.algomaster.io/p/rate-limiting-algorithms-explained-with-code)
