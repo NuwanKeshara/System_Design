@@ -5,3 +5,14 @@ ex: ||-5|| = 5
     set name = "Nuwan"
     where id = 123
 
+Implement idempotency:
+- add a unique ID(UID) for each connection and send the request with UID
+- for database insert operations, replace it with upsert (if already exists update the record)
+- for messaging, add a message id when sending it
+- CRUD operations (idempotent: GET, PUT, DELETE    Non-Idempotent: POST)
+
+
+Challenges:
+- Operational Overhead for checking messageID or UID
+- Increase latency
+- 
