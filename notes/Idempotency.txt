@@ -15,4 +15,7 @@ Implement idempotency:
 Challenges:
 - Operational Overhead for checking messageID or UID
 - Increase latency
-- 
+- maintain state (hard in stateless architecture)
+- hard to implement in distributed systems
+- Time windows for maintain idempotency (in payment gateways)
+
