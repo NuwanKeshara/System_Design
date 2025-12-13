@@ -1,0 +1,7 @@
+* Executing same operation multiple times produces the same result.
+
+ex: ||-5|| = 5
+    update emp
+    set name = "Nuwan"
+    where id = 123
+
