@@ -1,0 +1,9 @@
+* Limiting no of requests that a user be able to send to the service
+
+Rate Limiting Algorithms:
+- Token Bucket: add rate of tokens to the bucket. each request assigned a token. if no tokens available no request pass through
+- Leaky Bucket: requests are put into a bucket and bottom of the bucket hole processed requests are discarded. If the bucket is full all new requests are ignored.
+- Fixed Window Counter: request are accepted for counter for a fixed window. (ex: 100 requests per 1 minute) If counter exceeds the limit requests will be discarded until the 
+next interval
+- Sliding Window Log: similar to Fixed Window but with a Sliding window and timestamp added to the Log
+- Sliding Window Counter: Fixed Window Counter + Sliding Window Log
